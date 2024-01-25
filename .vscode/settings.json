@@ -1,0 +1,11 @@
+{
+    "powermode.enabled": true,
+    "powermode.presets":"fireworks",
+    "powermode.combo.counterEnabled": "show",
+    "powermode.combo.location": "statusbar",
+    "powermode.combo.timerEnabled": "show",
+    "powermode.combo.counterSize": 5,
+    "powermode.shake.enabled": false,
+    "less.lint.unknownProperties": "warning",
+    "files.autoSave": "afterDelay"
+}

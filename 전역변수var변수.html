@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>전역변수 진짜 진짜 헷갈려</title>
+    </head>
+    <script>
+        function val(){
+          var res= eval("2*3+4*6");
+document.write("eval(\"2*3+4*6\")는 32<br>");
+
+n=parseInt("hello");
+if(isNaN(n))
+document.write("hello는 숫자가 맞다는 거짓말.");
+        }
+    </script>
+    <body>
+        <h3>전역변수 3개 연습장</h3>
+        <hr>
+        <script>
+            val();
+            //이부문은 eval이랑 isNaN같은거를 어떻게 활용하는지에 따라 쓰이는게 다를듯
+        </script>
+    </body>
+</html>
